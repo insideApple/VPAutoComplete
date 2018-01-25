@@ -62,7 +62,7 @@ Copy VPAutoComplete-Source folder in Your project and start using
 
 
 ## Authors
-* **Vive Padaya**
+* **Vivek Padaya**
 
 ## License
 
