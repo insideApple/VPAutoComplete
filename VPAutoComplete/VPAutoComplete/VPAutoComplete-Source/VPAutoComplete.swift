@@ -288,7 +288,7 @@ extension VPAutoComplete : UITableViewDelegate{
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
         if is_filter{
             let selectedStr = filterDataSource[indexPath.row]
-            let selectedIndex = filterDataSource.index(of: selectedStr)
+            let selectedIndex = dataSource.index(of: selectedStr)
             self.isShowView(is_show: false)
             self.completionHandler!(selectedStr, selectedIndex!)
             return
