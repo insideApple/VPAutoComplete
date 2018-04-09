@@ -37,7 +37,7 @@ For `UIViewController`
 Quick Run
 
 ```
-         _ = VPDropDown.init(onTextField: textField, dataSource: ["Data 1", "Data 2", "Data 3"], onView: self.view, completionHandler: { (str, index) in
+         _ = VPAutoComplete.init(onTextField: textField, dataSource: ["Data 1", "Data 2", "Data 3"], onView: self.view, completionHandler: { (str, index) in
          print("string : \(str) and Index : \(index)")
          self.textField.text = str
          })
