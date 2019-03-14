@@ -13,7 +13,7 @@ I used `IQKeyBoardManager` for working with scroll as well
 ### Requirment
 
 Xcode 9 and iOS 11.0
-Code is written in swift 4
+Code is written in swift 4.2
 
 
 
