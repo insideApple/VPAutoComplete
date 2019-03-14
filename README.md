@@ -28,6 +28,7 @@ For `UIViewController`
         dropDown.dataSource = ["Data 1", "Data 2", "Data 3"]
         dropDown.onTextField = textField // Your TextField
         dropDown.onView = self.view // ViewController's View
+        //        dropDownTop.showAlwaysOnTop = true //To show dropdown always on top.
         dropDown.show { (str, index) in
             print("string : \(str) and Index : \(index)")
             self.textField.text = str
