@@ -1,0 +1,696 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6E945880AA0B380E49DCF0F8 /* Pods_VPAutoComplete.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A522BAFCB2172AC69679524C /* Pods_VPAutoComplete.framework */; };
+		DCDF224A26BB35AF261EF9A9 /* Pods_VPAutoCompleteUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9FDC0AE8142EF71B5490E7E0 /* Pods_VPAutoCompleteUITests.framework */; };
+		E2340A362019D9D800D25BA0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2340A352019D9D800D25BA0 /* AppDelegate.swift */; };
+		E2340A3B2019D9D800D25BA0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E2340A392019D9D800D25BA0 /* Main.storyboard */; };
+		E2340A3D2019D9D800D25BA0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E2340A3C2019D9D800D25BA0 /* Assets.xcassets */; };
+		E2340A402019D9D800D25BA0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E2340A3E2019D9D800D25BA0 /* LaunchScreen.storyboard */; };
+		E2340A922019DA8400D25BA0 /* ExampleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2340A912019DA8400D25BA0 /* ExampleViewController.swift */; };
+		E2340A942019DA9400D25BA0 /* ExampleTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2340A932019DA9400D25BA0 /* ExampleTableViewController.swift */; };
+		E2340A962019DAB000D25BA0 /* VPAutoComplete.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2340A952019DAB000D25BA0 /* VPAutoComplete.swift */; };
+		E2340A992019DAF600D25BA0 /* VPAutoCompleteViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2340A972019DAF600D25BA0 /* VPAutoCompleteViewCell.swift */; };
+		E2340A9A2019DAF600D25BA0 /* VPAutoCompleteViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = E2340A982019DAF600D25BA0 /* VPAutoCompleteViewCell.xib */; };
+		F3CB39E9428BB542401F9038 /* Pods_VPAutoCompleteTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BA5C3B97AAD6A2AC8906EC20 /* Pods_VPAutoCompleteTests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E2340A472019D9D800D25BA0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E2340A2A2019D9D800D25BA0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E2340A312019D9D800D25BA0;
+			remoteInfo = VPAutoComplete;
+		};
+		E2340A522019D9D800D25BA0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E2340A2A2019D9D800D25BA0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E2340A312019D9D800D25BA0;
+			remoteInfo = VPAutoComplete;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		04F9D571539090F7270FCB82 /* Pods-VPAutoComplete.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VPAutoComplete.debug.xcconfig"; path = "Pods/Target Support Files/Pods-VPAutoComplete/Pods-VPAutoComplete.debug.xcconfig"; sourceTree = "<group>"; };
+		2E1476C249FF2BD2928B5324 /* Pods-VPAutoCompleteUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VPAutoCompleteUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-VPAutoCompleteUITests/Pods-VPAutoCompleteUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		9FDC0AE8142EF71B5490E7E0 /* Pods_VPAutoCompleteUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_VPAutoCompleteUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A522BAFCB2172AC69679524C /* Pods_VPAutoComplete.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_VPAutoComplete.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		ACBF385EB960A6A33B23EAAE /* Pods-VPAutoCompleteTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VPAutoCompleteTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-VPAutoCompleteTests/Pods-VPAutoCompleteTests.debug.xcconfig"; sourceTree = "<group>"; };
+		BA5C3B97AAD6A2AC8906EC20 /* Pods_VPAutoCompleteTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_VPAutoCompleteTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BF745E25C32407BFA5AFAD08 /* Pods-VPAutoCompleteUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VPAutoCompleteUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-VPAutoCompleteUITests/Pods-VPAutoCompleteUITests.release.xcconfig"; sourceTree = "<group>"; };
+		C51FC86E4F8A9F41E56E7DB8 /* Pods-VPAutoCompleteTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VPAutoCompleteTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-VPAutoCompleteTests/Pods-VPAutoCompleteTests.release.xcconfig"; sourceTree = "<group>"; };
+		CF370F25CD7AEA8BD23BB486 /* Pods-VPAutoComplete.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VPAutoComplete.release.xcconfig"; path = "Pods/Target Support Files/Pods-VPAutoComplete/Pods-VPAutoComplete.release.xcconfig"; sourceTree = "<group>"; };
+		E2340A322019D9D800D25BA0 /* VPAutoComplete.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VPAutoComplete.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E2340A352019D9D800D25BA0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		E2340A3A2019D9D800D25BA0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		E2340A3C2019D9D800D25BA0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E2340A3F2019D9D800D25BA0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		E2340A412019D9D800D25BA0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E2340A462019D9D800D25BA0 /* VPAutoCompleteTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VPAutoCompleteTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E2340A512019D9D800D25BA0 /* VPAutoCompleteUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VPAutoCompleteUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E2340A912019DA8400D25BA0 /* ExampleViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExampleViewController.swift; sourceTree = "<group>"; };
+		E2340A932019DA9400D25BA0 /* ExampleTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExampleTableViewController.swift; sourceTree = "<group>"; };
+		E2340A952019DAB000D25BA0 /* VPAutoComplete.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VPAutoComplete.swift; sourceTree = "<group>"; };
+		E2340A972019DAF600D25BA0 /* VPAutoCompleteViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VPAutoCompleteViewCell.swift; sourceTree = "<group>"; };
+		E2340A982019DAF600D25BA0 /* VPAutoCompleteViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = VPAutoCompleteViewCell.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E2340A2F2019D9D800D25BA0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6E945880AA0B380E49DCF0F8 /* Pods_VPAutoComplete.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E2340A432019D9D800D25BA0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F3CB39E9428BB542401F9038 /* Pods_VPAutoCompleteTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E2340A4E2019D9D800D25BA0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DCDF224A26BB35AF261EF9A9 /* Pods_VPAutoCompleteUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2129654F186F95B3200108AF /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				04F9D571539090F7270FCB82 /* Pods-VPAutoComplete.debug.xcconfig */,
+				CF370F25CD7AEA8BD23BB486 /* Pods-VPAutoComplete.release.xcconfig */,
+				ACBF385EB960A6A33B23EAAE /* Pods-VPAutoCompleteTests.debug.xcconfig */,
+				C51FC86E4F8A9F41E56E7DB8 /* Pods-VPAutoCompleteTests.release.xcconfig */,
+				2E1476C249FF2BD2928B5324 /* Pods-VPAutoCompleteUITests.debug.xcconfig */,
+				BF745E25C32407BFA5AFAD08 /* Pods-VPAutoCompleteUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		BBC72F814B43021B686790FA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A522BAFCB2172AC69679524C /* Pods_VPAutoComplete.framework */,
+				BA5C3B97AAD6A2AC8906EC20 /* Pods_VPAutoCompleteTests.framework */,
+				9FDC0AE8142EF71B5490E7E0 /* Pods_VPAutoCompleteUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E2340A292019D9D800D25BA0 = {
+			isa = PBXGroup;
+			children = (
+				E2340A342019D9D800D25BA0 /* VPAutoComplete */,
+				E2340A332019D9D800D25BA0 /* Products */,
+				2129654F186F95B3200108AF /* Pods */,
+				BBC72F814B43021B686790FA /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		E2340A332019D9D800D25BA0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E2340A322019D9D800D25BA0 /* VPAutoComplete.app */,
+				E2340A462019D9D800D25BA0 /* VPAutoCompleteTests.xctest */,
+				E2340A512019D9D800D25BA0 /* VPAutoCompleteUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E2340A342019D9D800D25BA0 /* VPAutoComplete */ = {
+			isa = PBXGroup;
+			children = (
+				E2340A632019DA2F00D25BA0 /* VPAutoComplete-Source */,
+				E2340A352019D9D800D25BA0 /* AppDelegate.swift */,
+				E2340A912019DA8400D25BA0 /* ExampleViewController.swift */,
+				E2340A932019DA9400D25BA0 /* ExampleTableViewController.swift */,
+				E2340A392019D9D800D25BA0 /* Main.storyboard */,
+				E2340A3C2019D9D800D25BA0 /* Assets.xcassets */,
+				E2340A3E2019D9D800D25BA0 /* LaunchScreen.storyboard */,
+				E2340A412019D9D800D25BA0 /* Info.plist */,
+			);
+			path = VPAutoComplete;
+			sourceTree = "<group>";
+		};
+		E2340A632019DA2F00D25BA0 /* VPAutoComplete-Source */ = {
+			isa = PBXGroup;
+			children = (
+				E2340A952019DAB000D25BA0 /* VPAutoComplete.swift */,
+				E2340A972019DAF600D25BA0 /* VPAutoCompleteViewCell.swift */,
+				E2340A982019DAF600D25BA0 /* VPAutoCompleteViewCell.xib */,
+			);
+			path = "VPAutoComplete-Source";
+			sourceTree = SOURCE_ROOT;
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E2340A312019D9D800D25BA0 /* VPAutoComplete */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E2340A5A2019D9D800D25BA0 /* Build configuration list for PBXNativeTarget "VPAutoComplete" */;
+			buildPhases = (
+				719378DA43C4BBD310E4A4DB /* [CP] Check Pods Manifest.lock */,
+				E2340A2E2019D9D800D25BA0 /* Sources */,
+				E2340A2F2019D9D800D25BA0 /* Frameworks */,
+				E2340A302019D9D800D25BA0 /* Resources */,
+				8DF1ACB83ABCFE4D58171844 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = VPAutoComplete;
+			productName = VPAutoComplete;
+			productReference = E2340A322019D9D800D25BA0 /* VPAutoComplete.app */;
+			productType = "com.apple.product-type.application";
+		};
+		E2340A452019D9D800D25BA0 /* VPAutoCompleteTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E2340A5D2019D9D800D25BA0 /* Build configuration list for PBXNativeTarget "VPAutoCompleteTests" */;
+			buildPhases = (
+				C8F03F8F957D0DB37B1B23A3 /* [CP] Check Pods Manifest.lock */,
+				E2340A422019D9D800D25BA0 /* Sources */,
+				E2340A432019D9D800D25BA0 /* Frameworks */,
+				E2340A442019D9D800D25BA0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E2340A482019D9D800D25BA0 /* PBXTargetDependency */,
+			);
+			name = VPAutoCompleteTests;
+			productName = VPAutoCompleteTests;
+			productReference = E2340A462019D9D800D25BA0 /* VPAutoCompleteTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		E2340A502019D9D800D25BA0 /* VPAutoCompleteUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E2340A602019D9D800D25BA0 /* Build configuration list for PBXNativeTarget "VPAutoCompleteUITests" */;
+			buildPhases = (
+				02A284D0FE94358E8A84D952 /* [CP] Check Pods Manifest.lock */,
+				E2340A4D2019D9D800D25BA0 /* Sources */,
+				E2340A4E2019D9D800D25BA0 /* Frameworks */,
+				E2340A4F2019D9D800D25BA0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E2340A532019D9D800D25BA0 /* PBXTargetDependency */,
+			);
+			name = VPAutoCompleteUITests;
+			productName = VPAutoCompleteUITests;
+			productReference = E2340A512019D9D800D25BA0 /* VPAutoCompleteUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E2340A2A2019D9D800D25BA0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = Vivek;
+				TargetAttributes = {
+					E2340A312019D9D800D25BA0 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					E2340A452019D9D800D25BA0 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = E2340A312019D9D800D25BA0;
+					};
+					E2340A502019D9D800D25BA0 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = E2340A312019D9D800D25BA0;
+					};
+				};
+			};
+			buildConfigurationList = E2340A2D2019D9D800D25BA0 /* Build configuration list for PBXProject "VPAutoComplete" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E2340A292019D9D800D25BA0;
+			productRefGroup = E2340A332019D9D800D25BA0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E2340A312019D9D800D25BA0 /* VPAutoComplete */,
+				E2340A452019D9D800D25BA0 /* VPAutoCompleteTests */,
+				E2340A502019D9D800D25BA0 /* VPAutoCompleteUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E2340A302019D9D800D25BA0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E2340A402019D9D800D25BA0 /* LaunchScreen.storyboard in Resources */,
+				E2340A3D2019D9D800D25BA0 /* Assets.xcassets in Resources */,
+				E2340A9A2019DAF600D25BA0 /* VPAutoCompleteViewCell.xib in Resources */,
+				E2340A3B2019D9D800D25BA0 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E2340A442019D9D800D25BA0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E2340A4F2019D9D800D25BA0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		02A284D0FE94358E8A84D952 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-VPAutoCompleteUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		719378DA43C4BBD310E4A4DB /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-VPAutoComplete-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8DF1ACB83ABCFE4D58171844 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-VPAutoComplete/Pods-VPAutoComplete-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/IQKeyboardManagerSwift/IQKeyboardManagerSwift.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/IQKeyboardManagerSwift.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-VPAutoComplete/Pods-VPAutoComplete-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C8F03F8F957D0DB37B1B23A3 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-VPAutoCompleteTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E2340A2E2019D9D800D25BA0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E2340A942019DA9400D25BA0 /* ExampleTableViewController.swift in Sources */,
+				E2340A922019DA8400D25BA0 /* ExampleViewController.swift in Sources */,
+				E2340A962019DAB000D25BA0 /* VPAutoComplete.swift in Sources */,
+				E2340A362019D9D800D25BA0 /* AppDelegate.swift in Sources */,
+				E2340A992019DAF600D25BA0 /* VPAutoCompleteViewCell.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E2340A422019D9D800D25BA0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E2340A4D2019D9D800D25BA0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E2340A482019D9D800D25BA0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E2340A312019D9D800D25BA0 /* VPAutoComplete */;
+			targetProxy = E2340A472019D9D800D25BA0 /* PBXContainerItemProxy */;
+		};
+		E2340A532019D9D800D25BA0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E2340A312019D9D800D25BA0 /* VPAutoComplete */;
+			targetProxy = E2340A522019D9D800D25BA0 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		E2340A392019D9D800D25BA0 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E2340A3A2019D9D800D25BA0 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		E2340A3E2019D9D800D25BA0 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E2340A3F2019D9D800D25BA0 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E2340A582019D9D800D25BA0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		E2340A592019D9D800D25BA0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E2340A5B2019D9D800D25BA0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 04F9D571539090F7270FCB82 /* Pods-VPAutoComplete.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = VPAutoComplete/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.test.VPAutoComplete;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E2340A5C2019D9D800D25BA0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CF370F25CD7AEA8BD23BB486 /* Pods-VPAutoComplete.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = VPAutoComplete/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.test.VPAutoComplete;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		E2340A5E2019D9D800D25BA0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = ACBF385EB960A6A33B23EAAE /* Pods-VPAutoCompleteTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = VPAutoCompleteTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.test.VPAutoCompleteTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/VPAutoComplete.app/VPAutoComplete";
+			};
+			name = Debug;
+		};
+		E2340A5F2019D9D800D25BA0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C51FC86E4F8A9F41E56E7DB8 /* Pods-VPAutoCompleteTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = VPAutoCompleteTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.test.VPAutoCompleteTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/VPAutoComplete.app/VPAutoComplete";
+			};
+			name = Release;
+		};
+		E2340A612019D9D800D25BA0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2E1476C249FF2BD2928B5324 /* Pods-VPAutoCompleteUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = VPAutoCompleteUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.test.VPAutoCompleteUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = VPAutoComplete;
+			};
+			name = Debug;
+		};
+		E2340A622019D9D800D25BA0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BF745E25C32407BFA5AFAD08 /* Pods-VPAutoCompleteUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = VPAutoCompleteUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.test.VPAutoCompleteUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = VPAutoComplete;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E2340A2D2019D9D800D25BA0 /* Build configuration list for PBXProject "VPAutoComplete" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E2340A582019D9D800D25BA0 /* Debug */,
+				E2340A592019D9D800D25BA0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E2340A5A2019D9D800D25BA0 /* Build configuration list for PBXNativeTarget "VPAutoComplete" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E2340A5B2019D9D800D25BA0 /* Debug */,
+				E2340A5C2019D9D800D25BA0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E2340A5D2019D9D800D25BA0 /* Build configuration list for PBXNativeTarget "VPAutoCompleteTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E2340A5E2019D9D800D25BA0 /* Debug */,
+				E2340A5F2019D9D800D25BA0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E2340A602019D9D800D25BA0 /* Build configuration list for PBXNativeTarget "VPAutoCompleteUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E2340A612019D9D800D25BA0 /* Debug */,
+				E2340A622019D9D800D25BA0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E2340A2A2019D9D800D25BA0 /* Project object */;
+}
